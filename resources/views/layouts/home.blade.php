@@ -6,8 +6,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Sample LMS Project">
+    <meta name="author" content="mosquito">
 
     <title>{{ $page_title or 'Quick LMS' }}</title>
 
@@ -41,7 +41,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="/">Online Learning Management System</a>
+                        <a class="navbar-brand" href="/">Felixent: Learning Management System</a>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -116,7 +116,7 @@
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; LMS 2020</p>
+                    <p>Copyright &copy; Felixent:LMS </p>
                 </div>
             </div>
         </footer>
