@@ -15,7 +15,7 @@ Simple mini-project created using QuickAdminPanel and Adminlte.
 
 ## How to Install
 
-- git clonehttps://github.com/bestmomo/laravel5-example.gitprojectname
+- git clone https://github.com/sethuaung/Sample-LMS.git
 - cd projectname
 - composer install
 - php artisan key:generate
