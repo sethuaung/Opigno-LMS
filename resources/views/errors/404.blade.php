@@ -2,9 +2,10 @@
 
 @section('main')
 
-    <h2>Error</h2>
+    <h2>You are not worthy . . . </h2>
 
-    <p>Object not found. Please return to <a href="/">homepage</a>.</p>
+    <p>Check that you typed the address correctly, go back to your previous page or try using our site search to find something specific. </p>
+    <p>Please return to <a href="/">homepage</a>. </p>
 
 
 @endsection
