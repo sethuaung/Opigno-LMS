@@ -1,0 +1,33 @@
+#
+# Webserver Configuration for Laravel
+# PHP Setting in Increase PHP-FPM's max upload/post size
+#
+
+server {
+
+    listen 80;
+    listen [::]:80;
+    server_name felixent.lan;
+
+    root /var/www/html/lms/public;
+
+    index index.php;
+    
+    client_max_body_size 128m;
+
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/var/run/php/php8.1-fpm.sock;
+        fastcgi_param PHP_VALUE "upload_max_filesize=128M \n post_max_size=128M";
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        include fastcgi_params;
+    }
+
+    location ~ /\.ht {
+        deny all;
+    }
+}
