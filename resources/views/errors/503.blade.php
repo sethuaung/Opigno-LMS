@@ -40,7 +40,9 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Be right back.</div>
+                <div class="title">ARE YOU HAPPY NOW? </div>
+            <h2>HYDRA has stolen this page from the S.H.I.E.L.D. database! </h2>
+              <p>Please return to <a href="/">homepage</a>. </p>
             </div>
         </div>
     </body>
