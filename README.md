@@ -11,7 +11,7 @@ Simple mini-project created using QuickAdminPanel and Adminlte.
 This LMS is built on the Laravel framework, and uses various open source packages. This application is still in development, if you want to collaborate on the development, send us an email: felixent@outlook.com
 This Learning Management System (or LMS) that facilitates the creation of educational content by allowing you to manage courses and learning modules. The platform is simple and intuitive and provides features for:
 
-- course Management
+- Course Management
 - Lessons Management
 - User Management
 - Exam and result Management
@@ -21,18 +21,29 @@ This Learning Management System (or LMS) that facilitates the creation of educat
 
 
 ## How to Install
+```
+git clone https://github.com/sethuaung/Sample-LMS.git
+```
+```
+cd projectname
+```
+```
+composer install [or] composer update
+```
+```
+php artisan key:generate
+```
 
-- git clone https://github.com/sethuaung/Sample-LMS.git
-- cd projectname
-- composer install
-- php artisan key:generate
-- Create a database and inform .env
-- php artisan migrate --seed to create and      populate tables
-- php artisan serve to start the app on http://localhost:8000/
+Create a `database` and inform `.env`
+
+`php artisan migrate --seed` to create and populate tables
+`php artisan serve` to start the app on `http://localhost:8000/`
 
 Note: Admin login 
-email:admin@admin.com 
-Password:password
+
+`email:admin@admin.com`
+
+`Password:password`
 
 ### License
 
