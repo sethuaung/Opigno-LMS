@@ -41,9 +41,9 @@ Create a `database` and inform `.env`
 
 Note: Admin login 
 
-`email:admin@admin.com`
+email:`admin@admin.com`
 
-`Password:password`
+Password:`password`
 
 ### License
 
